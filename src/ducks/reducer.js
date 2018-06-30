@@ -4,7 +4,7 @@ const initialState ={
     city: '',
     propToBeUsedOn: '',
     found: "false",
-    realEstateAgent: false,
+    realEstateAgent: "false",
     cost: 0,
     downPayment: 0,
     credit: '',
