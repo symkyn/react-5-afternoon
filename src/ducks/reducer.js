@@ -4,7 +4,7 @@ const initialState ={
     city: '',
     propToBeUsedOn: '',
     found: "false",
-    realEstateAgent: "false",
+    realEstateAgent: false,
     cost: 0,
     downPayment: 0,
     credit: '',
@@ -143,7 +143,7 @@ export function updateCost( cost ) {
   }
   
 
-export function updateAgent ( agent ) {
+export function updateAgent( agent ) {
     return {
         type: UPDATE_AGENT,
         payload: agent
